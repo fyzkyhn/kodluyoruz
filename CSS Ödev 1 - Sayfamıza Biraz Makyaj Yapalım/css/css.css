@@ -1,0 +1,54 @@
+body {
+    background-color:rgb(205, 127, 139);
+}
+
+.brown {
+    color: brown;
+}
+
+.fs {
+    font-size: 32px;
+}
+
+.center {
+    text-align: center;
+}
+
+.lsp {
+    list-style-position: inside
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    margin:0 auto;
+    font-size: 20px;
+}
+
+td {
+   padding: 15px 20px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 20%;
+    float:left;
+    margin-top: 65px;
+    font-size: 20px;
+}
+
+article {
+    width: 80%;
+    float: left;
+}
+
+
+
+
