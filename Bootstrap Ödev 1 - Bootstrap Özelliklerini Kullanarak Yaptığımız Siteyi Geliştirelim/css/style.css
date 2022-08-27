@@ -1,0 +1,60 @@
+html {
+    overflow-y: overlay;
+}
+
+body {
+    background-color: #E9ECEF;
+}
+
+.body-text-color {
+    color:#3d494c;
+}
+
+.navbar {
+    background-color: #3d494c;
+}
+
+.navbar-brand {
+    color: #BBC6C8;
+}
+
+.nav-link {
+    color: #E9ECEF;
+}
+
+.form-control {
+    width: 200px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.list-group-item a {
+    color: #3d494c;
+    text-decoration: none;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #3d494c;
+    min-height:72px;
+}
+
+.card-text {
+    color: #903000;
+}
+
+.btn-index, .btn-products {
+    background-color:#4d443b;
+    color:#E9ECEF;
+}
+
+
+
+
+
