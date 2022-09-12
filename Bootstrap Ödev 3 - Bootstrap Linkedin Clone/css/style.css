@@ -1,0 +1,258 @@
+* {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;;
+    line-height: normal;
+}
+
+html {
+    overflow-y: overlay;
+}
+
+body {
+    background-color: #f3f2ef;
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.rgba-09 {
+    color:rgba(0,0,0,0.9);
+}
+
+.rgba-06 {
+    color:rgba(0,0,0,0.6);
+}
+
+.lh-15 {
+    line-height: 1.5;
+}
+
+.global-nav {
+    left: 0;
+    top: 0;
+    padding: 0 24px;
+    width: 100vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    height: 53px;
+}
+
+.global-nav__content {
+    min-height: 100%;
+    width: 1128px;
+}
+
+.global-nav__logo {
+    color: #0a66c2;
+    margin: 0 0.25rem 0 -0.25rem;
+}
+
+.global-nav__search {
+    height: 34px;
+    max-width: 280px;
+    background-color: #eef3f8;
+}
+
+.global-nav__search::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 0 0 28px;
+}
+
+.global-nav__primary-items {
+    height: 100%;
+}
+
+.global-nav__primary-items a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    width: 80px;
+}
+
+.global-nav__primary-items a:hover {
+    color: rgba(0,0,0,0.9);
+}
+
+.scaffold-layout {
+    margin-top: 75px;
+}
+
+@media (min-width: 1024px) {
+    .typeahead-lg {
+        display: none;
+    }
+}
+
+@media (max-width: 1023.98px) {
+    .global-nav__search-box {
+        display: none;
+    }
+}
+
+@media (max-width: 851.98px) {
+    .text-md {
+        display: none;
+    }
+    .global-nav__primary-items a {
+        width: 72px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .aside-left {
+        width:14.15rem;
+    }
+    .main {
+        width: 33.85rem;
+    }
+    .aside-right {
+        width: 19.8rem;
+    }
+}
+
+@media (max-width: 1199.98px) { 
+    .aside-left-lg {
+        width:180px;
+    }
+    .main-lg {
+        width: 432px;
+    }
+    .aside-right-lg {
+        width: 300px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .aside-left-md {
+        width: 205px;
+    }
+    .main-md {
+        width: 495px;
+    }
+    .aside-right-md {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .aside-left-sm {
+        width: 576px;
+    }
+    .main-sm {
+        width: 576px;
+    }
+    .small-screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.feed-identity {
+    text-decoration: none;
+}
+
+.feed-identity:hover {
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+.radius-fix:hover {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.feed-identity__widgets:hover, .artdeco-button:hover, .react-button:hover, .share-box__search:hover, .btn-hvr:hover, .follow-feed:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.link-underline {
+    text-decoration: none;
+}
+
+.link-underline:hover {
+    text-decoration: underline;
+    color: #0d6efd;
+    transition-duration: 0;
+}
+
+.btn-hvr {
+    background-color: #fff;
+}
+
+main {
+    margin: 0 1.4rem;
+}
+
+.share-box__search {
+    border-radius: 40px;
+    height: 48px;
+    padding: 0 0 3px 15px;
+}
+
+.share-box__search::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.artdeco-button {
+    height: 48px;
+}
+
+.follow-shared:hover {
+    background-color:rgba(112,181,249,0.3)
+}
+
+.image-container {
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+.react-button {
+    min-height:3.2rem;
+}
+
+.follow-feed {
+    border:1px solid rgba(0,0,0,0.6);
+    border-radius: 16px;
+    width: 105px;
+    height: 32px;
+    margin-top:6px;
+}
+
+.global-footer-compact__links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 24px;
+}
+
+.global-footer-compact__links li {
+    margin: 3px 8px;
+}
+
+.global-footer-compact__links button {
+    color:rgba(0,0,0,0.6);
+    font-size: 12px;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+
